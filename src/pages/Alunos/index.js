@@ -1,7 +1,7 @@
 //import { useNavigate } from 'react-router-dom'
 //import { useEffect } from 'react'
 
-function Profile() {
+function Alunos() {
 
     /*  let navigate = useNavigate()
       useEffect(() => {
@@ -10,8 +10,8 @@ function Profile() {
 
 
     return (
-        <h1>Profile </h1>
+        <h1>Alunos </h1>
     )
 }
 
-export default Profile
+export default Alunos

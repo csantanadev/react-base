@@ -15,8 +15,8 @@ function Header() {
     return (
         <Nav>
             <Link to="/" ><FaHome size={24} /></Link>
-            <Link to="profile" ><FaUserAlt size={24} /></Link>
-            <Link to="account" ><FaSignInAlt size={24} /></Link>
+            <Link to="aluno" ><FaUserAlt size={24} /></Link>
+            <Link to="alunos" ><FaSignInAlt size={24} /></Link>
             { botaoClicado === true ?  'Clicado' : 'Não Clicado'  }
         </Nav>
     )
